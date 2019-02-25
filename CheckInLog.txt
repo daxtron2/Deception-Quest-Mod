@@ -1,0 +1,5 @@
+----------------------------------------------------
+--User: Daxtron2 ESM: Deception.esm Date: 2019-2-25 22:56
+----------------------------------------------------
+Added a barrel to unowned cell to test merging
+
