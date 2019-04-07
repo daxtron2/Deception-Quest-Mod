@@ -1,0 +1,21 @@
+;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
+;NEXT FRAGMENT INDEX 5
+Scriptname TIF__0201D64A Extends TopicInfo Hidden
+
+;BEGIN FRAGMENT Fragment_4
+Function Fragment_4(ObjectReference akSpeakerRef)
+Actor akSpeaker = akSpeakerRef as Actor
+;BEGIN CODE
+if(TalkedToGlobal.GetValue() == 2)
+  GetOwningQuest().SetObjectiveDisplayed(20)
+  GetOwningQuest().SetStage(20)
+else
+  TalkedToGlobal.Mod(1)
+endIf
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;END FRAGMENT CODE - Do not edit anything between this and the begin comment
+
+GlobalVariable Property TalkedToGlobal  Auto  
