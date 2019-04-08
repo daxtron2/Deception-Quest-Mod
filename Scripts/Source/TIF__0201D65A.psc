@@ -12,6 +12,7 @@ if(TalkedToGlobal.GetValue() == 2)
 else
   TalkedToGlobal.Mod(1)
 endIf
+GetOwningQuest().SetObjectiveCompleted(12)
 ;END CODE
 EndFunction
 ;END FRAGMENT
