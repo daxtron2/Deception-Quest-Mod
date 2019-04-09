@@ -3,7 +3,7 @@ Scriptname flightSpeedEnchant extends activemagiceffect
 
 import debug
 
-Float Property maxSpeed = 300.0 Auto
+Float Property maxSpeed = 250.0 Auto
 Actor target
 Float baseSpeed
 
